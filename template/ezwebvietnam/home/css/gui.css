@@ -1,0 +1,41 @@
+.slideshow{ 
+	padding-left:3px;
+	box-shadow: 5px 7px 15px #B8C2C2;
+	-moz-box-shadow: 5px 7px 15px #B8C2C2;
+	-webkit-box-shadow: 5px 7px 15px #B8C2C2;
+}
+.transparent {
+	background: url(../image/transparent_bg.png) 0 0 repeat-y transparent;
+}
+.transparent .image_carousel, 
+.transparent .list_carousel, 
+.transparent .html_carousel, 
+.transparent .wheel_of_fortune,
+.fold_horizontal {
+	background: url(../image/fold_horizontal.png) left bottom repeat-x transparent;
+}
+.transparent, .transparent_top, .transparent_bottom, .transparent_schoolboard {
+	margin: 0 -10px;
+	padding: 0 10px;
+}
+.transparent_top, .transparent_bottom {
+	background: url(../image/transparent_top_bottom.png) 0 0 no-repeat transparent;
+}
+.transparent_top {
+	height: 30px;
+}
+.transparent_bottom {
+	background-position: 0 -90px;
+	height: 10px;
+}
+.transparent_top.p1 {
+	background-position: 0 0px;
+}
+.transparent_top.p2 {
+	background-position: 0 -60px;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
